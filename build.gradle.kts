@@ -59,6 +59,9 @@ kover {
 }
 
 tasks {
+    runIde {
+        jvmArgs = listOf("-Dhttps.protocols=TLSv1.2")
+    }
     wrapper {
         gradleVersion = properties("gradleVersion").get()
     }

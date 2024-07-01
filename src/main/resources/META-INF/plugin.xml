@@ -5,7 +5,10 @@
     <vendor>very0928</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
+    <depends>com.intellij.clion</depends>
+    <depends>com.intellij.modules.cidr.lang</depends>
+    <depends>com.intellij.modules.cidr.ide</depends>
+    <depends>com.intellij.modules.lang</depends>
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
